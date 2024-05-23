@@ -41,54 +41,13 @@ header {
     color: #999;
     position: relative;
 }
- .menu li a::before {
-    position: absolute;
-    top: -5px;
-    left: 0;
-    content: "";
-    width: 0;
-    height: 2px;
-    border-radius: 6px;
-    background-color: #27ae60;
-    transition: 0.5s;
-}
-/* .menu li a:hover::before {
-    width: 100%;
-} */
-.menu li a::after {
-    position: absolute;
-    bottom: -5px;
-    right: 0;
-    content: "";
-    width: 0;
-    height: 2px;
-    border-radius: 6px;
-    background-color: #27ae60;
-    transition: 0.5s;
-} 
-.menu .active li a ::after{
-/* 
-    position: absolute; */
-    bottom: -5px;
-    right: 0;
-    content: "";
-    width: 0;
-    height: 2px;
-    border-radius: 6px;
-    background-color: #b31a06;
-    transition: 0.5s;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
-    padding: 0 10%;
-    position: fixed; */
+
+.Fabrique {
+    border-bottom: 2px solid #ce0033;
 }
 
-/* .btnherder {
-    background-color: #ce0033;
-    color: green
-} */
+
+
 .btnhead {
     color: white;
     background-color: #ce0033;
@@ -97,6 +56,13 @@ header {
     width: 70px;
     height: 30px;
 
+}
+
+.titrelaph {
+    margin-top: 100px;
+    text-align: center;
+    color: #ce0033;
+    font-size: 20px;
 }
 
 .containerphistoir {
@@ -136,7 +102,7 @@ header {
 .textouv h2 {
     font-size: 25px;
     margin-top: 45px;
-    color: rgb(21, 27, 21);
+    color: black;
     margin-left: 70px;
     /* margin-left: 1-0px; */
 }
@@ -939,7 +905,7 @@ form {
 
 .footersecs {
     display: flex;
-    background-color: #252121e0;
+    background-color: #0f0f0fe0;
     height: 230px;
     line-height: 2;
     color: white;
