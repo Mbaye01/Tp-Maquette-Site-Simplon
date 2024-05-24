@@ -948,6 +948,7 @@ textarea::placeholder{
     margin-right: 10px;
     cursor: pointer;
 } */
+
 .footer-topin .fa-youtube{
     color: #ff0000;
     font-size: 35px;
@@ -1029,3 +1030,39 @@ textarea::placeholder{
 .footer-bottom .right{
     font-size: 15px;
 }
+
+
+/* .loader {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loader_cube {
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    border-radius: 30px;
+  }
+  
+  .loader_cube--glowing {
+    z-index: 2;
+    background-color: rgba(194, 192, 192, 0.2);
+    border: 2px solid rgba(180, 175, 175, 0.3);
+  }
+  
+  .loader_cube--color {
+    z-index: 1;
+    filter: blur(2px);
+    background: linear-gradient(135deg, #b6c9c8, #ce0033);
+    animation: loadtwo 2.5s ease-in-out infinite;
+  }
+  
+  @keyframes loadtwo {
+    50% {
+      transform: rotate(-80deg);
+    }
+  } */
