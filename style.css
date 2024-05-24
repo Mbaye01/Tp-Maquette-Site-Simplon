@@ -138,7 +138,7 @@ header .contact:hover{
     margin-left: 40px;
     border-radius: 20px;
     top: 145px;
-    border: 1px solid rgba(214, 148, 148, 0.9);
+    border: 1px solid #d00434;
     
 }
 .righton p{
@@ -480,8 +480,8 @@ header .contact:hover{
     width: 50px;
     height: 50px;
     background-color: #d00434;
-    /* clip-path: polygon(50% 0, 100% 100%, 0 100%); */
-    /* transform: rotate(27deg); */
+    clip-path: polygon(50% 0, 100% 100%, 0 100%); 
+     transform: rotate(27deg); 
     position: absolute;
     left: -45px;
     top: 179px;
@@ -984,8 +984,8 @@ textarea::placeholder{
     width:164px;
     padding: 10.9px;
     height: 37px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     border: none;
     margin-top: 20px;
 }
@@ -997,10 +997,10 @@ textarea::placeholder{
     cursor: pointer;
 }
 .footer-topin3 .join-email{
-    width:80px;
+    width:70px;
     height: 39px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     background-color: #ce0033;
